@@ -46,8 +46,13 @@ let All_song = [
         path:"albums/4.mp3",
         img:"album_img/4.jpg",
         singer:"Sonu Nigam"
+    },
+    {
+        name:"Wildest Dreams",
+        path:"song/ts.mp3",
+        img:"",
+        singer:"Taylor swift"
     }
-
 ];
 
 //all function//

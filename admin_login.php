@@ -14,20 +14,18 @@
 <body>
     <div class="login-form">
         <h2>Admin Login</h2>
-        <form method="POST">
-            <div clss="input-field">
-                <input type="text" placeholder="Admin Name" name="adminname">
-            </div>
-
-            <div clss="input-field">
-                <input type="password" placeholder="password" name="adminpassword">
+        <form action="#" method="POST">
+            <div class="input-field">
+                <p>Username</p>
+                <input type="text" placeholder="Username" name="adminname">
+                <p>Password</p>
+                <input type="password" placeholder="Password" name="adminpassword">
             </div>
             <button type="submit" name="signin">Sign in </button>
             <div class="extra">
-                <a href="#">forgot password ?</a>
+                <a href="#">forgot password?</a>
                 <a href="#">create account</a>
             </div>
-
         </form>
     </div>
 

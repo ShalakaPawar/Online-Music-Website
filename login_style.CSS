@@ -8,74 +8,60 @@
 
 body{
     margin: 12%;
-    background-color: #f2f4f6;
+    background: url(m.png) no-repeat;
+    background-size: cover;
 }
 
-div.login-form{
-    height: 50%;
-    width: 50%;
-    margin-left: 35%;
-    background-color: white;
-    box-shadow: 0px 5px 10px black;
+.login-form{
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: black;
+    background-color: #95afc0;
+    opacity: 0.9;
 }
 
-div.login-form h2{
+.login-form h2{
     text-align: center;
-    background-color: #204969;
-    padding: 12px 0px;
-    color: white;
+    font-size: 150%;
+    text-transform: uppercase;
+    padding: 20px 0px;
+    color: black;
+}
+.login-form p{
+    font-size: 20px;
+    margin: 10px 0;
 }
 
-div.login-form form{
-    padding: 30px 60px;
-    height: 40%;
-    width: 60%;
-}
-
-div.login-form form div.input-field{
-    display: flex;
-    flex-direction: row;
-    width: 70%;
-    margin: 10px 0px;
-    align-content: center;
-}
-
-div.login-form form div.input-field input{
-    background-color: #f2f4f6;
-    padding: 10 px;
-    border: none;
-    font-size: 50%;
+.login-form form{
+    padding: 20px 48px;
+    height: 100%;
     width: 100%;
-    padding-left: 15px;
+}
+
+.login-form input{
+    text-align: center;
+    padding: 15px 10px;
+    border: none;
+    font-size: 16px;
+    width: 100%;
 }
 
 div.login-form form button{
     width: 100%;
-    background-color: #82eaf0;
-    padding: 10px;
+    padding: 10px 15px;
     border: none;
-    font-size: 50%;
-    font-weight: 500;
-    color: rgb(248, 245, 245);
+    font-size: 93%;
+    font-weight: bold;
+    color: black;
     margin: 15px 0;
-
+    border-radius: 8%;
 }
 
 div.login-form form button:hover{
     background-color: #41b6e6;
 }
 
-div.login-form form div.extra{
-    font-size: 14px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
 
-div.login-form form div.extra a:first-child{
-    color: darkgrey;
-}
-
-div.login-form form div.extra a:last-child{
-    color: darkgrey;
-}

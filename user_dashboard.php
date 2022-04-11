@@ -49,7 +49,6 @@
    <!---header area ----->
    <header>
        <label for="check">
-       <i class="fa-solid fa-bars" id="sidebar_btn"></i>
        </label>
        <div class="left_area">
            <h3> Dashboard</h3>
@@ -64,8 +63,7 @@
         </center>
         <a href="music.html"><i  class="fa-solid fa-desktop"></i><span>Best Songs</span></a>
         <a href="Albums.html"><i  class="fa-solid fa-cogs"></i><span>Album Songs</span></a>
-        <a href="#"><i  class="fa-solid fa-table"></i><span>Artist</span></a>
-        <a href="#"><i  class="fa-solid fa-th"></i><span>Profile Setting</span></a>
+        <a href="update_profile.php"><i  class="fa-solid fa-th"></i><span>Profile Setting</span></a>
     </div>
  <!---sidebar end here--->
  <div class="content"></div>
@@ -73,7 +71,7 @@
 <?php
     if(isset($_POST['logout'])){
         session_destroy();
-        header("location:admin_login.php");
+        header("location:user1_login.php");
     }
  ?>
 </body>

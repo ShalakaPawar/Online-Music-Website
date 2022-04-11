@@ -60,12 +60,11 @@
     <div class="sidebar">
         <center>
             <img src="1.jpeg"  class="profile_image" alt="">
-            <h4>sejal<h4>
+            <h4><?PHP echo $_SESSION['adminloginid'] ?></h4>
         </center>
         <a href="#"><i  class="fa-solid fa-desktop"></i><span>Dashboard</span></a>
-        <a href="#"><i  class="fa-solid fa-cogs"></i><span>Edit User Details</span></a>
-        <a href="#"><i  class="fa-solid fa-table"></i><span>Songs Setting</span></a>
-        <a href="#"><i  class="fa-solid fa-th"></i><span>Profile Setting</span></a>
+        <a href="display_user.php"><i  class="fa-solid fa-cogs"></i><span>User Details</span></a>
+        <a href="admin_profile.php"><i  class="fa-solid fa-th"></i><span>Profile Setting</span></a>
     </div>
  <!---sidebar end here--->
  <div class="content"></div>
